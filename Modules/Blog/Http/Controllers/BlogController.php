@@ -17,7 +17,7 @@ class BlogController extends Controller
         return view('blog::index');
     }
     public function test(){
-        return view('blog::test');
+        return view('blog::test.test');
     }
 
     /**
